@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:medical_app1/presentation/background.dart';
 import 'package:medical_app1/presentation/resources/Input_text.dart';
+import 'package:medical_app1/presentation/user/profile_view.dart';
 
 import '../resources/color_manger.dart';
+import '../resources/route_manager.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -79,6 +81,9 @@ class LoginView extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
+
+              InkWell(onTap: (){Navigator.pushNamed(context,Routes.profileViewRoute);},
+                child:
               Container(
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
@@ -91,6 +96,7 @@ class LoginView extends StatelessWidget {
                       style: TextStyle(fontSize: 18),
                     ),
                   ))
+                ,)
             ],
           ),
         ),

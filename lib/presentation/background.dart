@@ -30,23 +30,24 @@ class Background extends StatelessWidget {
                       width: 250,
                       height: 350,
                     )),
+
+                Positioned(
+                    bottom: 0,
+                    right: 0,
+                    child: SvgPicture.asset(
+                      "assets/Background2.svg",
+                      width: 250,
+                      height: 350,
+                    )),
+                Positioned(
+                    bottom: 0,
+                    right: 0,
+                    child: SvgPicture.asset(
+                      "assets/Background2.svg",
+                      width: 250,
+                      height: 350,
+                    )),
                 child,
-                Positioned(
-                    bottom: 0,
-                    right: 0,
-                    child: SvgPicture.asset(
-                      "assets/Background2.svg",
-                      width: 250,
-                      height: 350,
-                    )),
-                Positioned(
-                    bottom: 0,
-                    right: 0,
-                    child: SvgPicture.asset(
-                      "assets/Background2.svg",
-                      width: 250,
-                      height: 350,
-                    )),
               ],
             )));
   }

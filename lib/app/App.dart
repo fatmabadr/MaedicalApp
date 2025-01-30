@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
       onGenerateRoute: RouteGenerator.getRoute,
-      initialRoute: Routes.profileViewRoute,
+      initialRoute: Routes.startUPRoute,
       // theme: getApplicationTheme(),
     );
   }
