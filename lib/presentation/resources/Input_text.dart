@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:medical_app1/presentation/start_up.dart';
+import 'package:medical_app1/presentation/start_up_view.dart';
 
 import 'color_manger.dart';
 

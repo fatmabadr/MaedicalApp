@@ -17,7 +17,7 @@ class ProfileView extends StatelessWidget {
           child: Row(
             children: [
               Image.asset(
-                "assets/profile_imagee.png",
+                "assets/images/profile_imagee.png",
                 width: 70,
                 height: 70,
               ),
@@ -48,7 +48,7 @@ class ProfileView extends StatelessWidget {
         ),
         Positioned(
           child: SvgPicture.asset(
-            "assets/notification.svg",
+            "assets/images/notification.svg",
             width: 30,
             height: 30,
           ),
@@ -71,7 +71,7 @@ class ProfileView extends StatelessWidget {
                 Column(
                   children: [
                     SvgPicture.asset(
-                      "assets/profile_logo.svg",
+                      "assets/images/profile_logo.svg",
                       width: 80,
                       height: 80,
                     ),
@@ -105,7 +105,7 @@ class ProfileView extends StatelessWidget {
             Column(
               children: [
                 SvgPicture.asset(
-                  "assets/tasks.svg",
+                  "assets/images/tasks.svg",
                   width: 80,
                   height: 80,
                 ),
@@ -137,7 +137,7 @@ class ProfileView extends StatelessWidget {
               Column(
                 children: [
                   SvgPicture.asset(
-                    "assets/reports.svg",
+                    "assets/images/reports.svg",
                     width: 80,
                     height: 80,
                   ),
@@ -172,7 +172,7 @@ class ProfileView extends StatelessWidget {
               Column(
                 children: [
                   SvgPicture.asset(
-                    "assets/attendance_leaving.svg",
+                    "assets/images/attendance_leaving.svg",
                     width: 80,
                     height: 80,
                   ),

@@ -5,8 +5,8 @@ import 'package:medical_app1/presentation/resources/route_manager.dart';
 
 import 'background.dart';
 
-class StartUp extends StatelessWidget {
-  const StartUp({super.key});
+class StartUpView extends StatelessWidget {
+  const StartUpView({super.key});
 
   static String type = '';
 

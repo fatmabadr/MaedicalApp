@@ -18,7 +18,7 @@ class Background extends StatelessWidget {
                     top: 0,
                     left: 0,
                     child: SvgPicture.asset(
-                      "assets/Background1.svg",
+                      "assets/images/Background1.svg",
                       width: 250,
                       height: 350,
                     )),
@@ -26,7 +26,7 @@ class Background extends StatelessWidget {
                     top: 0,
                     left: 0,
                     child: SvgPicture.asset(
-                      "assets/Background1.svg",
+                      "assets/images/Background1.svg",
                       width: 250,
                       height: 350,
                     )),
@@ -35,7 +35,7 @@ class Background extends StatelessWidget {
                     bottom: 0,
                     right: 0,
                     child: SvgPicture.asset(
-                      "assets/Background2.svg",
+                      "assets/images/Background2.svg",
                       width: 250,
                       height: 350,
                     )),
@@ -43,11 +43,12 @@ class Background extends StatelessWidget {
                     bottom: 0,
                     right: 0,
                     child: SvgPicture.asset(
-                      "assets/Background2.svg",
+                      "assets/images/Background2.svg",
                       width: 250,
                       height: 350,
                     )),
                 child,
+
               ],
             )));
   }

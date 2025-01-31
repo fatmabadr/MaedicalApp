@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:medical_app1/presentation/background.dart';
 import 'package:medical_app1/presentation/resources/color_manger.dart';
-import 'package:medical_app1/presentation/start_up.dart';
+import 'package:medical_app1/presentation/start_up_view.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
 import '../resources/route_manager.dart';

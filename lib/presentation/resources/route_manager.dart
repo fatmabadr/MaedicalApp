@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medical_app1/presentation/start_up.dart';
+import 'package:medical_app1/presentation/start_up_view.dart';
 import '../login/login_view.dart';
 import '../onBoarding/onBoarding_view.dart';
 import '../user/profile_view.dart';
@@ -16,7 +16,7 @@ class Routes{
 class RouteGenerator{
   static Route<dynamic> getRoute(RouteSettings setting){
     switch (setting.name){
-      case Routes.startUPRoute:return MaterialPageRoute(builder: (_)=> const StartUp());
+      case Routes.startUPRoute:return MaterialPageRoute(builder: (_)=> const StartUpView());
       case Routes.onBoardingRoute:return MaterialPageRoute(builder: (_)=>const OnboardingView());
       case Routes.loginRoute:return MaterialPageRoute(builder: (_)=>const LoginView());
       case Routes.profileViewRoute:return MaterialPageRoute(builder: (_)=>const ProfileView());
