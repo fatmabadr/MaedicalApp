@@ -5,6 +5,8 @@ import '../onBoarding/onBoarding_view.dart';
 import '../user/profile_view.dart';
 
 class Routes{
+ 
+
   static const String startUPRoute="start_up";
   static const String onBoardingRoute="onBoarding/onBoarding_view";
   static const String loginRoute="login/login_view";
