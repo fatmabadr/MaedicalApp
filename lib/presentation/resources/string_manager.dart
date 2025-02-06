@@ -1,0 +1,1 @@
+final baseApiUrl="https://dummyjson.com/user/1";

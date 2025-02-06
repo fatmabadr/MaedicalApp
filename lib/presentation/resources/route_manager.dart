@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
 import 'package:medical_app1/presentation/start_up_view.dart';
 import '../login/login_view.dart';
 import '../onBoarding/onBoarding_view.dart';
 import '../user/profile_view.dart';
 
 class Routes{
- 
+
+ static const String testbloc="testbloc";
 
   static const String startUPRoute="start_up";
   static const String onBoardingRoute="onBoarding/onBoarding_view";
@@ -16,8 +19,16 @@ class Routes{
 }
 
 class RouteGenerator{
+
+
   static Route<dynamic> getRoute(RouteSettings setting){
     switch (setting.name){
+
+
+
+
+
+
       case Routes.startUPRoute:return MaterialPageRoute(builder: (_)=> const StartUpView());
       case Routes.onBoardingRoute:return MaterialPageRoute(builder: (_)=>const OnboardingView());
       case Routes.loginRoute:return MaterialPageRoute(builder: (_)=>const LoginView());
