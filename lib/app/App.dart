@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../presentation/resources/route_manager.dart';
 class MyApp extends StatelessWidget {
   //singleTone(3 steps)
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       onGenerateRoute: RouteGenerator.getRoute,
       initialRoute: Routes.startUPRoute,
-      // theme: getApplicationTheme(),
+
     );
   }
 }

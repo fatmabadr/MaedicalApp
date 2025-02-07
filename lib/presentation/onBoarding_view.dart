@@ -1,13 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:medical_app1/presentation/background.dart';
+import 'package:medical_app1/presentation/Widgets/background.dart';
 import 'package:medical_app1/presentation/resources/color_manger.dart';
-import 'package:medical_app1/presentation/start_up_view.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
-import '../resources/route_manager.dart';
+import 'resources/route_manager.dart';
 
 class OnboardingView extends StatefulWidget {
   const OnboardingView({super.key});
@@ -42,14 +40,14 @@ class _OnboardingViewState extends State<OnboardingView> {
       children: [
         Positioned(
           top: MediaQuery.of(context).size.height / 4,
-          left: MediaQuery.of(context).size.width / 3 ,
+          left: MediaQuery.of(context).size.width / 3,
           width: MediaQuery.of(context).size.width / 2.5,
-          height: MediaQuery.of(context).size.height /4.5,
-          child: Image.asset("assets/Background_logo.png"),
+          height: MediaQuery.of(context).size.height / 4.5,
+          child: Image.asset("assets/images/Background_logo.png"),
         ),
         Positioned(
-            top: MediaQuery.of(context).size.height/1.4,
-            left: MediaQuery.of(context).size.width/14,
+            top: MediaQuery.of(context).size.height / 1.4,
+            left: MediaQuery.of(context).size.width / 14,
             child: Column(
               children: [
                 LinearPercentIndicator(
@@ -60,9 +58,9 @@ class _OnboardingViewState extends State<OnboardingView> {
                   animationDuration: 5000,
                   backgroundColor: ColorManger.grey,
                   progressColor: ColorManger.primaryGreen,
-                  barRadius: Radius.circular(5),
+                  barRadius: const Radius.circular(5),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 Text(

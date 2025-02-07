@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:medical_app1/presentation/resources/color_manger.dart';
 import 'package:medical_app1/presentation/resources/route_manager.dart';
 
-import 'background.dart';
+import 'Widgets/background.dart';
 
 class StartUpView extends StatelessWidget {
   const StartUpView({super.key});
